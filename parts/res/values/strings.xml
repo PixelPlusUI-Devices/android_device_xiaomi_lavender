@@ -60,7 +60,4 @@
 
      <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Mi sound</string>
-
-    <!-- FPS Counter -->
-    <string name="fps_info_title">FPS Counter</string>
 </resources>

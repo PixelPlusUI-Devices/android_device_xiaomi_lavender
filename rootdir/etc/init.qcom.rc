@@ -551,10 +551,6 @@ on property:vold.decrypt=trigger_restart_framework
     restart vendor.audio-hal-2-0
     restart vendor.camera-provider-2-4
 
-    # FPS Info permissions
-    chown system graphics /sys/devices/virtual/graphics/fb0/measured_fps
-    chmod 0666 /sys/devices/virtual/graphics/fb0/measured_fps
-
 service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
     class core
     user vendor_qrtr
