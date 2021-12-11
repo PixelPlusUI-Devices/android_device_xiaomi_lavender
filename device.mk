@@ -436,6 +436,7 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     libwpa_client \
     WifiOverlay \
+    libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
 
